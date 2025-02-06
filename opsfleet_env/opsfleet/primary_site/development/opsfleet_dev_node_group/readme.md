@@ -60,30 +60,24 @@ The opsfleet-dev-node-group infrastructure is designed to provision and manage a
 
 
 # Deployment Steps
-1. Clone the repository:
-```sh
-git clone https://github.com/your-repo/opsfleet-dev-cluster.git
-cd opsfleet-dev-cluster
 
-``` 
-
-2. Initialize Terraform:
+1. Initialize Terraform:
 ```sh
 terraform init
 ```
 
 
-3. Validate the configuration:
+2. Validate the configuration:
 ```sh
 terraform validate
 ```
 
-4. Plan the deployment:
+3. Plan the deployment:
 ```sh
 terraform plan
 ```
 
-5. Apply the configuration:
+4. Apply the configuration:
 ```sh
 terraform apply -auto-approve
 ```
