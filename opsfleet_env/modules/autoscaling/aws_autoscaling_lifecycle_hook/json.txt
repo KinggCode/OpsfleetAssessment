@@ -1,0 +1,3 @@
+ jsonencode({
+    foo = "bar"
+  })

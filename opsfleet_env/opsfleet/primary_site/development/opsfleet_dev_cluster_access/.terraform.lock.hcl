@@ -1,0 +1,71 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/gavinbunney/kubectl" {
+  version     = "1.19.0"
+  constraints = ">= 1.14.0"
+  hashes = [
+    "h1:quymfa/OKEfWI5JXFEwGbUY2aAy0vet3rA9JWJam+3k=",
+    "zh:1dec8766336ac5b00b3d8f62e3fff6390f5f60699c9299920fc9861a76f00c71",
+    "zh:43f101b56b58d7fead6a511728b4e09f7c41dc2e3963f59cf1c146c4767c6cb7",
+    "zh:4c4fbaa44f60e722f25cc05ee11dfaec282893c5c0ffa27bc88c382dbfbaa35c",
+    "zh:51dd23238b7b677b8a1abbfcc7deec53ffa5ec79e58e3b54d6be334d3d01bc0e",
+    "zh:5afc2ebc75b9d708730dbabdc8f94dd559d7f2fc5a31c5101358bd8d016916ba",
+    "zh:6be6e72d4663776390a82a37e34f7359f726d0120df622f4a2b46619338a168e",
+    "zh:72642d5fcf1e3febb6e5d4ae7b592bb9ff3cb220af041dbda893588e4bf30c0c",
+    "zh:9b12af85486a96aedd8d7984b0ff811a4b42e3d88dad1a3fb4c0b580d04fa425",
+    "zh:a1da03e3239867b35812ee031a1060fed6e8d8e458e2eaca48b5dd51b35f56f7",
+    "zh:b98b6a6728fe277fcd133bdfa7237bd733eae233f09653523f14460f608f8ba2",
+    "zh:bb8b071d0437f4767695c6158a3cb70df9f52e377c67019971d888b99147511f",
+    "zh:dc89ce4b63bfef708ec29c17e85ad0232a1794336dc54dd88c3ba0b77e764f71",
+    "zh:dd7dd18f1f8218c6cd19592288fde32dccc743cde05b9feeb2883f37c2ff4b4e",
+    "zh:ec4bd5ab3872dedb39fe528319b4bba609306e12ee90971495f109e142d66310",
+    "zh:f610ead42f724c82f5463e0e71fa735a11ffb6101880665d93f48b4a67b9ad82",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/aws" {
+  version     = "5.84.0"
+  constraints = ">= 4.28.0"
+  hashes = [
+    "h1:OJ53RNte7HLHSMxSkzu1S6H8sC0T8qnCAOcNLjjtMpc=",
+    "zh:078f77438aba6ec8bf9154b7d223e5c71c48d805d6cd3bcf9db0cc1e82668ac3",
+    "zh:1f6591ff96be00501e71b792ed3a5a14b21ff03afec9a1c4a3fd9300e6e5b674",
+    "zh:2ab694e022e81dd74485351c5836148a842ed71cf640664c9d871cb517b09602",
+    "zh:33c8ccb6e3dc496e828a7572dd981366c6271075c1189f249b9b5236361d7eff",
+    "zh:6f31068ebad1d627e421c72ccdaafe678c53600ca73714e977bf45ff43ae5d17",
+    "zh:7488623dccfb639347cae66f9001d39cf06b92e8081975235a1ac3a0ac3f44aa",
+    "zh:7f042b78b9690a8725c95b91a70fc8e264011b836605bcc342ac297b9ea3937d",
+    "zh:88b56ac6c7209dc0a775b79975a371918f3aed8f015c37d5899f31deff37c61a",
+    "zh:9b12af85486a96aedd8d7984b0ff811a4b42e3d88dad1a3fb4c0b580d04fa425",
+    "zh:a1979ba840d704af0932f8de5f541cbb4caa9b6bbd25ed552a24e6772175ba07",
+    "zh:b058c0533dae580e69d1adbc1f69e6a80632374abfc10e8634d06187a108e87b",
+    "zh:c88610af9cf957f8dcf4382e0c9ca566ef10e3290f5de01d4d90b2d81b078aa8",
+    "zh:e9562c055a2247d0c287772b55abef468c79f8d66a74780fe1c5e5dae1a284a9",
+    "zh:f7a7c71d28441d925a25c08c4485c015b2d9f0338bc9707443e91ff8e161d3d9",
+    "zh:fee533e81976d0900aa6fa443dc54ef171cbd901847f28a6e8edb1d161fa6fde",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/awscc" {
+  version     = "1.27.0"
+  constraints = ">= 0.30.0"
+  hashes = [
+    "h1:wtR4X3nK4XlATYXJSxR+KKML2VW1yOtVntEUvQMzqKY=",
+    "zh:09e6a3acb221ecd658020341f2a08fb702c774a1fe6f2d5b4107b7f63bd4fb22",
+    "zh:0d33c8968c8cb00b61828d221c16ff5678fdf2f587c3b7b378b0faade8b3e13d",
+    "zh:2a2f79f025fff2bd361e9643b6b631623a50c102be8db71cc6ae9e130fc98324",
+    "zh:37b2e1dd1bcf4ce1d48a5b236aacf77b3819077dfac81bce10fe1fcb9d601c95",
+    "zh:5cc52a2a7ea2393f6ee884212f70517e70ad670c196c03c276c75bbac0835c73",
+    "zh:619369f7db985ff38151752541eab4643bfde9b92490e05ec67c2b154f93792a",
+    "zh:8d724a562c3e08b2965cf1d104d72b607010799657fc40d0e836904427699fb6",
+    "zh:9ca7ce3fb228422068b4346b3263de15612ec1b08665cbeb55eea6baae7f9971",
+    "zh:a7b4e9c29866726628d3fa016eec3fb81b456102138f9361dae4509936129da7",
+    "zh:b05fec194f5989c023f01c87cd972ed68a3319bb3efcf5dc27a18ea051cc9309",
+    "zh:c45b0bed0811123bf9e7e434bcb65d2d9f9d08d995f4f7bfdb365cce4e55dee6",
+    "zh:d1b6fc6d23506dddacd82ac924f2297c382c131bebb59f15dc2e7f8b46ca8763",
+    "zh:ed638e06cd5b83f2da402286405ef14d95d2c60492c1787b5c8f3c9d3462e50d",
+    "zh:f61c74523bc47e838bbccf437824898cf355bcfbfe4f8b7254f57f31cd5961ef",
+    "zh:f809ab383cca0a5f83072981c64208cbd7fa67e986a86ee02dd2c82333221e32",
+  ]
+}

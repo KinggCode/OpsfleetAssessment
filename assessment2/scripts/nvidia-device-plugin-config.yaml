@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: opsfleet-nvidia-device-plugin-config
+  namespace: gpu-operator
+data:
+  config: |
+    {
+      "flags": {
+        "migStrategy": "none"
+      },
+      "sharing": {
+        "timeSlicing": {
+          "resources": ["nvidia.com/gpu"],
+          "period": 100
+        }
+      }
+    }

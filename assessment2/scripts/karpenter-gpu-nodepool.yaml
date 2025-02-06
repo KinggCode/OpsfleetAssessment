@@ -1,0 +1,17 @@
+apiVersion: karpenter.k8s.aws/v1alpha1
+kind: NodePool
+metadata:
+  name: opsfleet-gpu-nodepool
+spec:
+  template:
+    spec:
+      nodeClassRef:
+        name: opsfleet-gpu-nodeclass
+      requirements:
+        - key: "node.kubernetes.io/instance-type"
+          operator: In
+          values: ["g5.2xlarge", "g4dn.xlarge"]
+        - key: "nvidia.com/gpu"
+          operator: Exists
+  disruption:
+    consolidateAfter: 30s

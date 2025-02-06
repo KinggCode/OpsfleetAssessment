@@ -1,0 +1,3 @@
+output "default_codegurureviewer_repository_association" {
+  value = aws_codegurureviewer_repository_association.default_codegurureviewer_repository_association
+}

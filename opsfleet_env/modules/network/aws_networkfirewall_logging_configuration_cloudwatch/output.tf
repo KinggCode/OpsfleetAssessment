@@ -1,0 +1,3 @@
+output "default_networkfirewall_logging_configuration_cw" {
+  value = aws_networkfirewall_logging_configuration.default_networkfirewall_logging_configuration_cw
+}

@@ -1,0 +1,31 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: MIT-0
+
+# --- examples/central_shared_services/modules/iam/variables.tf ---
+
+variable "group_name" {
+  type        = string
+  description = "Default IAM Group Name ."
+  default = "opsfleet-grp"
+}
+
+
+variable "policy_name" {
+  type        = string
+  description = "Default IAM Policy Name ."
+  default = "opsfleet-grp"
+}
+
+
+variable "policy_description" {
+  type        = string
+  description = "Default IAM Policy Description ."
+  default = "opsfleet-grp"
+}
+
+
+variable "policy" {
+  type        = string
+  description = "Default IAM Group ."
+  default = ""
+}

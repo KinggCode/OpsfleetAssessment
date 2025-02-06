@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opsfleet-ai-inference
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: opsfleet-ai-inference
+  template:
+    metadata:
+      labels:
+        app: opsfleet-ai-inference
+    spec:
+      containers:
+        - name: opsfleet-ai-container
+          image: opsfleet--ai-model:latest
+          resources:
+            limits:
+              nvidia.com/gpu: 0.5  # Request half a GPU
+            requests:
+              nvidia.com/gpu: 0.25  # Minimum 25% of a GPU

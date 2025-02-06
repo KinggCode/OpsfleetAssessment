@@ -1,0 +1,3 @@
+output "default_codecommit_approval_rule_template_association" {
+  value = aws_codecommit_approval_rule_template_association.default_codecommit_approval_rule_template_association
+}

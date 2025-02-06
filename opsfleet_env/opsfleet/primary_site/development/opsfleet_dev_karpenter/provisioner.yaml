@@ -1,0 +1,21 @@
+apiVersion: karpenter.k8s.aws/v1alpha5
+kind: Provisioner
+metadata:
+  name: default
+spec:
+  requirements:
+    - key: "node.kubernetes.io/instance-type"
+      operator: In
+      values: ["m6g.large", "m5.large", "c6g.large", "c5.large"]
+    - key: "topology.kubernetes.io/zone"
+      operator: In
+      values: ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+    - key: "kubernetes.io/arch"
+      operator: In
+      values: ["amd64", "arm64"]
+  provider:
+    securityGroupSelector:
+      aws: "sg-010ef8521dc894697"
+    subnetSelector:
+      aws: "subnet-0a31a283e73e70d4c,subnet-0d2fec448b24ebd69"
+  ttlSecondsAfterEmpty: 30

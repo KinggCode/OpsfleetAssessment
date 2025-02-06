@@ -1,0 +1,3 @@
+output "default_route53_vpc_association_authorization" {
+  value = aws_route53_vpc_association_authorization.default_route53_vpc_association_authorization
+}

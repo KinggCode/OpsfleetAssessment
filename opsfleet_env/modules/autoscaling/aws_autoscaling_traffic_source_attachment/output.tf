@@ -1,0 +1,3 @@
+output "default_autoscaling_traffic_source_attachment" {
+  value = aws_autoscaling_traffic_source_attachment.default_autoscaling_traffic_source_attachment
+}

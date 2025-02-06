@@ -1,0 +1,1 @@
+resource "aws_sns_sms_preferences" "default_sns_sms_preferences" {}
